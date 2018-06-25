@@ -166,3 +166,7 @@ A
 ”app/build/generated/source/apt/debug/mvp/retrofit/dagger/rxjava/android/com/mixofrxjavadaggerretrofitmvp/data/listrepo/ServiceGenerator_Factory.java,d/6/d67b3d5e90b17579e55bf263fd874d39d0687c52
 Â
 ‘app/build/generated/source/apt/debug/mvp/retrofit/dagger/rxjava/android/com/mixofrxjavadaggerretrofitmvp/di/ListModule_ProvideContextFactory.java,1/c/1c8447a46a43b43c38f40b9cf85da0e1ea2e2641
+L
+.idea/codeStyles/Project.xml,6/e/6ecd6000a7b6f4a2884412ff19f74193ed089648
+N
+.idea/dictionaries/admin44.xml,8/c/8ccc3dfd4867d85a72155a4715c22875b8e39ff2
