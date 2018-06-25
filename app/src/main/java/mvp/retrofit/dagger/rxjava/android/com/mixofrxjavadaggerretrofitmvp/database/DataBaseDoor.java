@@ -23,6 +23,15 @@ import mvp.retrofit.dagger.rxjava.android.com.mixofrxjavadaggerretrofitmvp.utils
 public class DataBaseDoor extends SQLiteOpenHelper {
 
     public static final String DATABASE_NAME = "product";
+    public static final String PRODUCT_TABLE = "product";
+    public static final String LANDMARK = "landmark";
+    public static final String PRICE = "price";
+    public static final String PRODUCT_NAME = "name";
+    public static final String CITY = "city";
+    public static final String REVIEW = "review";
+    public static final String RATING_COUNT = "rating_count";
+
+
     private static final String ENCODING_SETTING = "PRAGMA encoding = 'UTF-8';";
     private static final int VER_LAUNCH = 1;
     Context context = null;
@@ -42,7 +51,7 @@ public class DataBaseDoor extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
         try {
             db.execSQL(ENCODING_SETTING);
-            db.execSQL("CREATE TABLE product (name string , landmark string,city string, review string,ratingcount int , price int );");
+            db.execSQL("CREATE TABLE "+PRODUCT_TABLE+" ( "+PRODUCT_NAME+" string , "+LANDMARK+" string,"+CITY+" string, "+REVIEW+" string,"+ RATING_COUNT +" int , "+PRICE+" int );");
         } catch (Exception e) {
             //
         }
@@ -58,14 +67,14 @@ public class DataBaseDoor extends SQLiteOpenHelper {
         try {
             for(Product product : productList){
                 ContentValues cv = new ContentValues();
-                cv.put("name", product.getName());
-                cv.put("landmark", product.getLandmark());
-                cv.put("city", product.getCity());
-                cv.put("review", product.getRatedText());
-                cv.put("ratingcount", product.getReviewCount());
-                cv.put("price", product.getPrice());
+                cv.put(PRODUCT_NAME, product.getName());
+                cv.put(LANDMARK, product.getLandmark());
+                cv.put(CITY, product.getCity());
+                cv.put(REVIEW, product.getRatedText());
+                cv.put(RATING_COUNT, product.getReviewCount());
+                cv.put(PRICE, product.getPrice());
                 db = getWritableDatabase();
-                db.insert("product", "save", cv);
+                db.insert(PRODUCT_TABLE, "save", cv);
             }
 
         } catch (Exception e) {
@@ -78,7 +87,7 @@ public class DataBaseDoor extends SQLiteOpenHelper {
         List<Product> productList = null;
         try {
             db = getReadableDatabase();
-            Cursor c = db.rawQuery("SELECT name,landmark,city,review,ratingcount,price FROM product ", null);
+            Cursor c = db.rawQuery("SELECT "+PRODUCT_NAME+","+LANDMARK+","+CITY+","+REVIEW+","+ RATING_COUNT +", "+PRICE+" FROM "+PRODUCT_TABLE+" ", null);
             if (c != null && c.getCount() > 0) {
                 productList = new ArrayList<>();
                 c.moveToFirst();
