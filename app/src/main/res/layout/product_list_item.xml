@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/txName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txName"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/txPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/txRating"
+        android:layout_below="@+id/txName"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/txCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txRating"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txLandmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txRating"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/txCity"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/txReview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txCity"
+        android:textSize="15sp" />
+
+</RelativeLayout>

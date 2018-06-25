@@ -1,0 +1,14 @@
+
+ssquid:S1450"WRemove the "retrofit" field and declare it as a local variable in the relevant methods.(´˜Å•8Õ§ë¥Ã,
+<squid:S1170"!Make this final field static too.(Í‚ê98Õ§ë¥Ã,
+Bsquid:S1170"!Make this final field static too.(‹¶«Èûÿÿÿÿ8Õ§ë¥Ã,
+Bsquid:S1170"!Make this final field static too.(·½ïøÿÿÿÿ8Õ§ë¥Ã,
+=squid:S1170"!Make this final field static too.(ª””8Õ§ë¥Ã,
+=squid:S1170"!Make this final field static too.(ñ¨£8Õ§ë¥Ã,
+Bsquid:S1170"!Make this final field static too.(ÂÅŽ¹úÿÿÿÿ8Õ§ë¥Ã,
+vsquid:S00116"ZRename this field "TIMEOUT_CONNECT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í‚ê98Õ§ë¥Ã,
+ysquid:S00116"WRename this field "TIMEOUT_READ" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹¶«Èûÿÿÿÿ8Õ§ë¥Ã,
+ysquid:S00116"WRename this field "CONTENT_TYPE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·½ïøÿÿÿÿ8Õ§ë¥Ã,
+osquid:S00116"RRename this field "API_KEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª””8Õ§ë¥Ã,
+zsquid:S00116"]Rename this field "CONTENT_TYPE_VALUE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ¨£8Õ§ë¥Ã,
+zsquid:S00116"XRename this field "API_KEY_VALUE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÅŽ¹úÿÿÿÿ8Õ§ë¥Ã,

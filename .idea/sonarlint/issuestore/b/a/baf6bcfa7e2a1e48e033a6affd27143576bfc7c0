@@ -1,0 +1,10 @@
+
+ƒsquid:S1450"bRemove the "provideGsonProvider" field and declare it as a local variable in the relevant methods.(Òé¼ñúÿÿÿÿ8Õâ¥Ã,
+ƒsquid:S1450"gRemove the "serviceGeneratorProvider" field and declare it as a local variable in the relevant methods.(¶ÍàÚ8Õâ¥Ã,
+€squid:S1450"eRemove the "provideContextProvider" field and declare it as a local variable in the relevant methods.(°„G8Õâ¥Ã,
+squid:S1450"cRemove the "dataBaseDoorProvider" field and declare it as a local variable in the relevant methods.(ÙçÑ¦8Õâ¥Ã,
+squid:S1450"eRemove the "listRepositoryProvider" field and declare it as a local variable in the relevant methods.(ÆæÂÆ8Õâ¥Ã,
+†squid:S1450"eRemove the "dataRepositoryProvider" field and declare it as a local variable in the relevant methods.(­Š¶ëÿÿÿÿÿ8Õâ¥Ã,
+”squid:S1450"sRemove the "provideCompositeSubscriptionProvider" field and declare it as a local variable in the relevant methods.(Ï¾ÕŸøÿÿÿÿ8Õâ¥Ã,
+Šsquid:S1450"iRemove the "productListUseCaseProvider" field and declare it as a local variable in the relevant methods.(·ƒ‹‹øÿÿÿÿ8Õâ¥Ã,
+…squid:S1450"dRemove the "homePresenterProvider" field and declare it as a local variable in the relevant methods.(Î¶úÀûÿÿÿÿ8Õâ¥Ã,
